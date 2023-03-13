@@ -1,0 +1,85 @@
+body{
+    background-color:white;
+    height: 72rem;
+    width: 128rem;
+    margin: 0 auto;
+}
+
+:root {
+    font-size: 64.5%;
+}
+
+.container{
+    height: 33rem;
+    width: 83rem;
+    margin: 19rem 23rem;
+    box-sizing: border-box;
+    display: flex;
+    gap: 16rem;
+    align-items: center;
+    background-color: white;
+}
+
+.timer {
+    height: 21rem;
+    width: 32rem;
+    display: grid;
+    margin:  0.8rem 0 1rem 3rem;
+    justify-items: center;
+}
+
+.timerBtn {
+    height: 4.9rem;
+    display: flex;
+    margin-right: 0.5rem;
+    gap: 3rem;
+}
+
+.clock {
+    height: 12rem;
+    width: 32rem;
+    font-size: 11rem;
+    display: flex;
+    justify-content: center;
+    font-family: 'roboto';
+}
+
+button{
+    background-color: transparent;
+    background-repeat:no-repeat;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    border: none;
+}
+
+.themes {
+    display: grid;
+    height: 30.6rem;
+    width: 30.8rem;
+    grid-template-columns: 15.4rem 15.4rem;
+    box-sizing: border-box;
+    justify-items: center;
+    margin-top: 2rem;
+} 
+
+.temas {
+    background-color: gray;
+    box-sizing: border-box;
+    height: 13rem;  
+    width: 11.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:24px;
+}
+
+#btn {
+    border-radius:24px; 
+    height: 13rem;  
+    width: 11.5rem;
+}
+
+#btn:focus{
+    background:#02799D;
+}
